@@ -1,9 +1,23 @@
+body{
+    font-family: 'Gill Sans';
+    background-color: rgb(93, 58, 26);
+    color:cornflowerblue;
+    margin: 0;
+}
+
 h1{
     font-size: 100px;
+    margin: 0;
+}
+
+hr{
+    width: 80%;
+    border-color: navy;
 }
 
 h2{
     font-size: 50px;
+    margin: 0;
 }
 
 .description p{
