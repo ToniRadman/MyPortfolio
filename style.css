@@ -1,9 +1,12 @@
 body{
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #050102;
+    color: #97939E;
 }
-#background_img{
 
+.home{
+    background-image: url(img_source\background_img.png);
 }
