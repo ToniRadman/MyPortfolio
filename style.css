@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img_source/background_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+h1{
+    color: #C60AFF;
+}
+h2{
+    color: #37D6FD;
+}
+.home, .my_projects, .my_skills, .contact_me{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
