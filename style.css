@@ -1,3 +1,9 @@
+:root{
+    --primary_heading_color: #3E0377;
+    --secondary_heading_color: #C60AFF;
+    --primary_body_color: #1149A6;
+    --secondary_body_color: #37D6FD;
+}
 *{
     margin: 0;
     padding: 0;
@@ -10,15 +16,27 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
-h1{
-    color: #C60AFF;
-}
-h2{
-    color: #37D6FD;
-}
 .home, .my_projects, .my_skills, .contact_me{
     height: 100vh;
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-auto-rows: 50vh;
+    grid-auto-columns: 50%;
+}
+h1{
+    color: var(--primary_heading_color);
+    font-size: 48px;
     
+}
+.about_me{
+    color: var(--primary_body_color);
+    font-size: 20px;
+}
+.grid_item1{
+    place-self: center;
+
+}
+.grid_item2{
+    grid-area: 2 / 2 / 3 / 3;
+    place-self: center;
 }
